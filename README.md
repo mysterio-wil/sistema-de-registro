@@ -8,15 +8,18 @@ Para ejecutar el sistema debe poner:
 
 - Comando frecuentes de Git
 
-```
-git init
+```git init
 git clone
-git commit -m
+git commit -m <mensaje>
 git status
 git add .
 git push origin main
 git pull
 git log
-git log --list
-git log -l
+git log --oneline
+git diff <nombre del archivo> //compara la version de un archivo
+git restore --source <codigo commit> <nombre del archivo> //restaura a una version anterior
+git branch // muestras todas las ramas
+git checkout -b <nombre de la rama> //crear nueva rama
+git switch <nombre de la rama> // cambia a otra rama
 ```
