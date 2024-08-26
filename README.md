@@ -22,4 +22,5 @@ git restore --source <codigo commit> <nombre del archivo> //restaura a una versi
 git branch // muestras todas las ramas
 git checkout -b <nombre de la rama> //crear nueva rama
 git switch <nombre de la rama> // cambia a otra rama
+git checkout -b git branch nombre-de-la-branch //crear y cambiar a la rama creada.
 ```
